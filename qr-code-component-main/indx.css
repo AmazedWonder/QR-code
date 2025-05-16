@@ -38,8 +38,8 @@ body, html {
 }
 
 .qr-code {
-    width: 288px;
-    height: 288px;
+    width: 320px;
+    height: 320px;
     border-radius: 10px;
     /* margin-top: 6rem; */
     /* margin-bottom: 2.5rem; */
@@ -51,6 +51,8 @@ body, html {
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 16px;
+    height: 328px;
     
 }
 
@@ -58,14 +60,14 @@ h1 {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    /* color: #4f545c; */
+    color: #1f314f;
     width: 288px;
     height: 70px;
 }
 
 p {
     font-size: 15px;
-    color: #4f545c;
+    color: #68778d;
     margin-bottom: 2rem;
     width: 256px;
     height: 20px;
