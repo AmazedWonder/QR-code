@@ -72,3 +72,13 @@ p {
     width: 256px;
     height: 20px;
 }
+
+.attribution {
+    position: absolute;
+    top: 700px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    /* color: #68778d; */
+    text-align: center;
+}
