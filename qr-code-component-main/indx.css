@@ -3,34 +3,36 @@
 body, html {
     background-color: #D5E1EF;
     height: 100%;
-    margin: 0; 
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
 }
 .container {
     background-color: #fdfeff;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
     align-items: center;
-    /* height: 100vh; */
+    max-width: 320px;
+    width: 90%;
+    margin: 5rem auto;
+    padding: 16px 16px 40px 16px;
     border-radius: 1rem;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    /* width: 90%; */
-    /* max-width: 400px; */
-    width: 320px;
-    height: 499px;
-    margin: 0 auto;
+    /* max-width: 1200px; */
+    /* height: 499px; */
+    /* height: auto; */
+    /* margin: 0 auto;
     margin-top: 5rem;
     margin-bottom: 5rem;
-    padding: 16px 16px 40px 16px;
-    font-family: 'Outfit', sans-serif;
-    line-height: 1.5;
-    text-align: center;
+    padding: 16px 16px 40px 16px; */
+    /* line-height: 1.5; */
     border: 1px solid #e0e0e0;
     transition: all 0.3s ease;
     /* cursor: pointer; */
-    position: relative;
+    /* position: relative; */
 }
+
 
 .container:hover {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
@@ -38,21 +40,22 @@ body, html {
 }
 
 .qr-code {
-    width: 320px;
-    height: 320px;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
-    /* margin-top: 6rem; */
-    /* margin-bottom: 2.5rem; */
 }
 
 .container-text {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    width: 16px;
-    height: 328px;
+    text-align: center; */
+    /* width: 16px;
+    height: 328px; */
+    margin-top: 0.5rem;
+    height: 161px;
+    width: 288px;
     
 }
 
@@ -61,24 +64,47 @@ h1 {
     font-weight: 700;
     margin-bottom: 1rem;
     color: #1f314f;
-    width: 288px;
-    height: 70px;
+    /* width: 288px;
+    height: 70px; */ 
 }
 
 p {
     font-size: 15px;
     color: #68778d;
     margin-bottom: 2rem;
+    margin: 0 auto;
+    padding: 0 10px;
     width: 256px;
     height: 20px;
 }
 
 .attribution {
-    position: absolute;
+    /* position: absolute;
     top: 700px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%); */
     font-size: 12px;
     /* color: #68778d; */
     text-align: center;
+    margin-top: 2rem;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+/* @media (max-width: 480px) {
+  h1 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 12px;
+  }
+} */
